@@ -1,0 +1,42 @@
+/* src/components/TaskItem.css */
+.task-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    
+  }
+  
+  .task-title {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: 10px;
+  }
+  
+  .delete-button {
+    background-color: #e63946;
+    color: rgb(6, 0, 0);
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .delete-button:hover {
+    background-color: #d62839;
+  }
+  .checkitem{
+    height: 25px;
+    
+  }
+  .addtask{
+    background-color: #e78c24;
+    font-size: 18px;
+    border: 1px solid black;
+    border-radius: 23px;
+    font-weight: 600;
+    width: 10vw;
+    margin: 4% 25%;
+  }
