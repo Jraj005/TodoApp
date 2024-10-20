@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/tasks"; // Update this URL after deployment
+const API_URL = "https://todobackend-ygn9.onrender.com/api/tasks"; // need to update this URL after deployment
 
 export const getTasks = () => axios.get(API_URL);
 export const addTask = (task) => axios.post(API_URL, task);
